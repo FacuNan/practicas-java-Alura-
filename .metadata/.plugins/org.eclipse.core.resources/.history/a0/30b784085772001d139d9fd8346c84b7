@@ -1,0 +1,11 @@
+package practicabtnbank;
+
+class cliente {
+	
+	String dni;
+	String telefono;
+	String sexo;
+	String Titular;
+	String nombre;
+
+}

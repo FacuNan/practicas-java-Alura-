@@ -1,0 +1,16 @@
+package javaPrimerosPasos;
+
+public class EjemploCondicionales2 {
+	public static void main(String[] args) {
+		int edad = 11;
+		boolean esPareja = true;
+
+		if (edad > 18 || esPareja==true) {
+			System.out.println("Su edad es " + edad + " usted puede entrar");
+		} else {
+				System.out.println("Usted es menor de edad");
+			}
+
+		}
+	}
+

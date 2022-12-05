@@ -1,0 +1,27 @@
+package practicabtnbank;
+
+public class testReferencia {
+	public static void main(String[] args) {
+		
+		//Se instancio un nuevo cliente
+		cliente Facundo = new cliente();
+		
+		Facundo.nombre = "Facundo";
+		Facundo.dni = "1234567";
+		Facundo.telefono = "1234567";
+		
+		
+		
+		
+		//Se instancia una nueva cuenta
+		cuenta cuentaDeFacundo = new cuenta();
+		
+		cuentaDeFacundo.Agencia = 1;
+		cuentaDeFacundo.titular = Facundo;
+		
+		System.out.println(cuentaDeFacundo.titular.dni);
+	
+	}
+	}
+
+}

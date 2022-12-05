@@ -1,0 +1,9 @@
+package practicabtnbank;
+
+public class pruebaConstructor {
+public static void main(String[] args) {
+	cuenta Cuenta = new cuenta();
+	Cuenta.setAgencia(-20);
+	System.out.println(Cuenta.getAgencia());
+}
+}

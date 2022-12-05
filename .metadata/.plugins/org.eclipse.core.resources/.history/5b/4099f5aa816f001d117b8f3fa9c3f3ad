@@ -1,0 +1,13 @@
+package javaPrimerosPasos;
+
+public class EjemploCaracteres {
+	public static void main(String[] args) {
+		char letra = 'a';
+		System.out.println(letra);
+		
+	
+		letra= '1';
+		
+	}
+
+}

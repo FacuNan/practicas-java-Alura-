@@ -1,0 +1,10 @@
+package ejemplo.java;
+
+public class EjercicioMultiplicar {
+	public static void main(String[] args) {
+		for (int numero = 0; numero <= 10; numero++) {
+			int resultado = numero * 5;
+			System.out.println(resultado);
+		}
+	}
+}

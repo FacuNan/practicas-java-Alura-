@@ -1,0 +1,17 @@
+package javaPrimerosPasos;
+
+public class TipoVariable {
+public static void main (String[] args) {
+	
+	double salario = 1250.56;
+	System.out.println(salario);
+	
+	double salarioMitad = salario / 2;
+	System.out.println(salarioMitad);
+	
+	double precio = 5.5;
+	int tickets = 4;
+	System.out.println (precio * tickets);
+	
+}
+}

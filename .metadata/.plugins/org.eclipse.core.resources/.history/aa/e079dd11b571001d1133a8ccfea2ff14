@@ -1,0 +1,20 @@
+package practicabtnbank;
+
+class cuenta {
+	
+	
+	double Saldo;
+	int Agencia;
+	int Numero;
+	String titular;
+	
+	void depositar(double valor){
+		Saldo = Saldo + valor;
+		
+	}
+	}
+		
+	
+	
+
+}

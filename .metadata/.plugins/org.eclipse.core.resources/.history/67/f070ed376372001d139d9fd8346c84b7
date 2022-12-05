@@ -1,0 +1,75 @@
+package practicabtnbank;
+
+class cuenta {
+	private double Saldo;
+	private int Agencia;
+	private int Numero;
+	 Cliente titular;
+	 
+	 public cuenta() {
+		 
+	 }
+	 
+	 public cuenta(int agencia) {
+		 if(agencia <=0) {
+			 System.out.println("No se permiten numeros menores o iguales a 0");
+			 this.Agencia= agencia;
+		 }
+	 }
+
+	public void depositar(double Saldo) {
+		this.Saldo += Saldo;
+	}
+
+	public boolean retirar(double valor) {
+		if (this.Saldo >= valor) {
+			this.Saldo -= valor;
+			return true;
+		} else {
+			return false;
+		}
+
+	}
+
+	public boolean transferir(double valor, cuenta Cuenta) {
+		if (this.Saldo >= valor) {
+			this.retirar(valor);
+			Cuenta.depositar(valor);
+			return true;
+
+		} else {
+			return false;
+		}
+	}
+
+	public double getSaldo() {
+		return this.Saldo;
+	}
+	
+	public void setSaldo(double saldo) {
+		this.Saldo = saldo;
+	}
+
+	public void setAgencia(int nuevaAgencia) {
+		if (nuevaAgencia > 0) {
+			this.Agencia = nuevaAgencia;
+		}else {
+			System.out.println("No puede ingresar valores negativos");
+		}
+	}
+	
+	public int getAgencia() {
+		return this.Agencia;
+	}
+
+	
+
+	public void setTitular(Cliente titular) {
+		this.titular = titular;
+	}
+	
+	public Cliente getTitular() {
+		return titular;
+	}
+
+}

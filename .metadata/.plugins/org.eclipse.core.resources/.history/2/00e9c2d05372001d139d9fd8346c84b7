@@ -1,0 +1,27 @@
+package practicabtnbank;
+
+public class 3 {
+public static void main(String[] args) {
+	
+	cuenta miCuenta = new cuenta();
+	
+	miCuenta.Saldo = 300;
+	miCuenta.depositar(500);
+	
+	miCuenta.retirar(100);
+	
+	
+	
+	cuenta cuentaJimena = new cuenta();
+	
+	cuentaJimena.depositar(1000);
+	if(cuentaJimena.transferir(2000, miCuenta)) {
+		System.out.println("La transferencia fue exitosa");
+	}else{
+		System.out.println("Lo siento no ha sido posible realizar la operación");
+	}
+	};
+	
+
+}
+

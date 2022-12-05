@@ -1,0 +1,11 @@
+package practicabtnbank;
+
+public class pruebaEncapsulamientos {
+public static void main(String[] args) {
+
+	cuenta Cuenta = new cuenta();
+	
+	cliente Cliente = new cliente();
+}
+		
+}

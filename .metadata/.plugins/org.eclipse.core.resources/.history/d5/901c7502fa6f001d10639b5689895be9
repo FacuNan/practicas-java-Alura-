@@ -1,0 +1,8 @@
+package ejemplo.java;
+
+public class FactoriaEjemplo {
+	public static void main(String[] args) {
+		
+	}
+
+}

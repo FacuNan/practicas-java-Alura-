@@ -1,0 +1,7 @@
+package byteBankH;
+
+public class funcionario {
+private String nombre;
+private String Documento;
+private double salario;
+}
