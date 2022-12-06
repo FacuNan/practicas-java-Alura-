@@ -14,7 +14,7 @@ public static void main(String[] args) {
 	
 	gerente.setTipo(1);
 	
-	System.out.println(gerente.iniciarSesion("AluraCursos2022"));
+	System.out.println(gerente.iniciarSesion(AluraCursos2022));
 }
 
 }
