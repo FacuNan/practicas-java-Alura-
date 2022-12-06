@@ -1,0 +1,14 @@
+package byteBankH;
+
+public class TestGerente {
+public static void main(String[] args) {
+	Gerente gerente = new Gerente();
+	
+	
+	gerente.setSalario(5000);
+	gerente.setNombre("Facundo");
+	gerente.setDocumento("12345678");
+	System.out.println(gerente.getBonificacion());
+}
+
+}

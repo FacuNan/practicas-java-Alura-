@@ -9,7 +9,5 @@ public static void main(String[] args) {
 	Diego.setSalario(100.000);
 	System.out.println(Diego.getSalario());
 	
-	System.out.println(Diego.getBonificacion());
-	
 }
 }

@@ -37,7 +37,7 @@ public class funcionario {
 	public double getBonificacion() {
 		if (this.tipo == 1) {
 			return this.salario;
-		} else if (this.tipo == 0) {
+		} else if (tipo == 0) {
 			return this.salario * 0.1;
 		} else {
 			return 0;
