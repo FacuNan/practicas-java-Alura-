@@ -32,13 +32,12 @@ class cuenta {
 		this.Saldo += Saldo;
 	}
 
-	public boolean retirar(double valor) {
+	public void retirar(double valor) {
 		if (this.Saldo >= valor) {
-			this.Saldo -= valor;
-			return true;
-		} else {
-			return false;
-		}
+		throw new SaldoInsufucienteException("No es posible retirar saldo");
+		} 
+			
+		this.Saldo -= valor;
 
 	}
 

@@ -1,8 +1,0 @@
-package byteBankH;
-
-public class Gerente {
-private String nombre;
-private String documento;
-private double salario;
-
-}
